@@ -1,18 +1,20 @@
-div{
-width:200px;
+.container{
+	width:200px;
 	height:200px;
 	background-color:lightblue;
-	 border-style: solid;
-  border-width:  thick;
-	height: 10em;
-    position: relative
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	border:2px solid black;
+	
 }
 p{
-	 margin: 0;
-    color:purple;
-    position: absolute;
+	position: absolute;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+    margin: 0;
+	color:purple;
+	font-size:18px;
 }
